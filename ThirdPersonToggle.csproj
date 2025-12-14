@@ -4,7 +4,12 @@
         <TargetFramework>net472</TargetFramework>
         <RootNamespace>Evaisa.ThirdPersonToggle</RootNamespace>
 		<LangVersion>8.0</LangVersion>
-		<DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
     </PropertyGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
