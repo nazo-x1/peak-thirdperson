@@ -9,7 +9,7 @@ using Zorro.ControllerSupport;
 using Photon.Pun;
 using System.Linq;
 
-namespace Evaisa.ThirdPersonToggle
+namespace Nazo.SecondPersonToggle
 {
     [BepInPlugin(GUID, ModName, Version)]
     public class SecondPersonToggle : BaseUnityPlugin  // 类名改为SecondPersonToggle以更准确

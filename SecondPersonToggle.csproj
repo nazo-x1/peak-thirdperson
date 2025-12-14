@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>net472</TargetFramework>
-        <RootNamespace>Evaisa.ThirdPersonToggle</RootNamespace>
+        <RootNamespace>Nazo.SecondPersonToggle</RootNamespace>
 		<LangVersion>8.0</LangVersion>
     <RestoreAdditionalProjectSources>
       https://api.nuget.org/v3/index.json;
@@ -13,7 +13,7 @@
     </PropertyGroup>
 
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-      <Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;$(GameDir)\BepInEx\plugins\ThirdPersonToggle&quot; /Y&#xD;&#xA;xcopy &quot;$(TargetDir)ThirdPersonToggle.pdb&quot; &quot;$(GameDir)\BepInEx\plugins\ThirdPersonToggle&quot; /Y" />
+      <Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;$(GameDir)\BepInEx\plugins\SecondPersonToggle&quot; /Y&#xD;&#xA;xcopy &quot;$(TargetDir)SecondPersonToggle.pdb&quot; &quot;$(GameDir)\BepInEx\plugins\SecondPersonToggle&quot; /Y" />
     </Target>
 
 
