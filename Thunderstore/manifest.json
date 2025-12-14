@@ -1,9 +1,9 @@
 {
     "name": "SecondPersonToggle",
     "author": "Nazo",
-    "version_number": "1.0.11",
+    "version_number": "1.0.13",
     "website_url": "https://github.com/nazo-x1/peak-thirdperson",
-    "description": "Adds a second person toggle button (V by default)",
+    "description": "Adds a second person toggle button (V by default);Modify from EvaisaDev's Third Person Toggle mod.",
     "dependencies": [
 		"BepInEx-BepInExPack_PEAK-5.4.2403",
         "Hamunii-AutoHookGenPatcher-1.0.7"
